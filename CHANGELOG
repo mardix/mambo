@@ -1,0 +1,17 @@
+1.9.0
+  - fixed "build" that was failing due to compress_html (now removed in favor of htmlmin)
+  - removed "extras" folder. 
+  - use htmlmin to minify html 
+  - move kolibri.extras.md to kolibri.md
+  - No more global macros, macros moved to templates/macros/meta.html 
+  - remove unecessary objects
+1.8.0
+  - Added In Single File Component {%STATIC_URL%} replacement so it can be added To
+    replace the full path
+1.7.0
+  - remove macro.script_tag, macro.stylesheet_tag,
+  - remove blocks: __PAGE_COMPONENT_STYLE__, __PAGE_COMPONENT_SCRIPT__
+  - added function {{ script_tag }} {{ stylesheet_tag }}
+  - added context page.__assets.scripts, page.__assets.stylesheets, 
+    containing the list of respective properties. To be included in page with {{ script_tag }}
+  - Update skel templates

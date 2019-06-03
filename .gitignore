@@ -1,0 +1,34 @@
+*.py[co]
+__pycache__*
+
+# Packages
+*.egg
+*.egg-info
+.cache
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+MANIFEST
+
+# PyCharm
+.idea/*
+.idea
+.build
+.idea/libraries/sass_stdlib.xml
+.sass-cache
+.vscode
+
+# Distribution
+/dist/*
+
+# Mac stuff
+.DS_Store
+
+site/
+dev/

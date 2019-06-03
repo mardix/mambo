@@ -1,0 +1,53 @@
+
+
+# Thoughts gathering
+
+## Single file component
+<template></template>
+<script></script>
+<style></style>
+
+
+Config:
+  - site: default site config 
+  - env: environment specific site config
+  - build: build Config
+  - serve: config for serve, include livereload options
+  - globals: globals config, include site layout etc
+
+Global variables:
+  site: site config
+  data: data in /data folder
+  __kolibri: kolibri info
+
+Page variable: 
+  page: data in the front matter
+  this: alias to 'page'
+
+
+### Build env
+
+Run `kolibri build`, or to specify an env, use `kolibri build --env prod`
+
+under config 'build.env', you can also specify the 'env'
+
+If you want to bypass the env, you can either leave `build.env` as empty.
+
+Same concept for 'serve'
+
+# In pages
+
+New variable 'this', along with 'page', "this" can be used "{{ page.title }} -> {{ this.title }}" 
+
+### Macros
+
+
+
+
+
+
+
+
+
+
+

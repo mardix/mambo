@@ -1,0 +1,102 @@
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+#                              Mambo
+#                      The Elegant Static Site Generator
+# mardix.github.io/mambo
+#
+# mambo
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# Site: Global site context
+# Variables under [site] will be available in the page as ie: {{ site.name }}
+site:
+
+  # base_url: **REQUIRED - Site base url, the canonical url to build
+  base_url: /
+
+  # static_url: **REQUIRED - Site static. If static files are placed somewhere else, you can put the path there
+  static_url: /static/
+
+  # Site name
+  name: MySiteName.com
+
+  # The site url
+  url: 
+
+  # Google Analytics code
+  google_analytics:
+
+  # Site Favicon
+  favicon:
+
+  # Global meta tags. They can be overwritten by page meta tags
+  meta:
+    keywords:
+    language: en-us
+    rating: General
+    robots: index, follow
+
+# ------------------------------------------------------------------------------
+# Site environment:
+# To setup environment data specific. 
+# environment data will be merged with the global site settings
+# ie: 'env.prod.base_url' will use the prod base_url
+# At build: 'mambo build --env prod', or serve 'mambo serve --env prod'
+env: 
+  prod:
+    base_url: /
+    static_url: /static/
+
+# ------------------------------------------------------------------------------
+# Configuration when serving locally
+serve:
+  port: 8000
+  livereload: True
+  openwindow: True
+  env: 
+  generate_sitemap: True
+  minify_html: False  
+
+# ------------------------------------------------------------------------------
+# Build configuration, could be the final product
+build:
+  # env: The site_env to build. Leave blank to have the option in the command line
+  env: prod
+  generate_sitemap: True
+  minify_html: True 
+
+# ------------------------------------------------------------------------------
+# Global settings
+globals:
+  # layout: **REQUIRED - The default site layout
+  layout: layouts/default.html
+
+  # Timezone
+  timezone: America/New_York
+
+  # sitemap: default sitemap 
+  sitemap: 
+    priority: 0.7 
+    changefreq: monthly
+    
+  # assets: global assets to be included in all pages
+  # assets must reside in the static folder or from http url 
+  # * for stylesheets, just list the items
+  # ie: stylesheets:
+  #       - x.css
+  #       - y.css
+  # * for scripts, you can list the items. 
+  # They will have type="text/javascript" by default
+  # or as object, where you specify the url and attributes
+  # ie:  scripts:
+  #       - main.js
+  #       - url: main2.js
+  #         attributes: type="module"  
+  assets:
+    scripts:
+      - main.js
+    stylesheets:
+      - main.css
+

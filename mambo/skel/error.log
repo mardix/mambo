@@ -1,0 +1,103 @@
+2019-06-03 00:04:56,642 ERROR mambo.cli name 'Error' is not defined
+2019-06-03 00:05:19,552 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-03 00:05:19,555 INFO livereload Start watching changes
+2019-06-03 00:05:19,555 INFO livereload Start detecting changes
+2019-06-03 00:05:21,337 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:05:21,442 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:09:18,802 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/blog.html
+2019-06-03 00:09:18,944 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:09:19,051 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:10:43,148 INFO livereload Shutting down...
+2019-06-03 00:10:45,626 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-03 00:10:45,630 INFO livereload Start watching changes
+2019-06-03 00:10:45,630 INFO livereload Start detecting changes
+2019-06-03 00:10:47,298 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:10:47,310 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:10:47,476 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:18,476 INFO livereload Reload 3 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/blog.html
+2019-06-03 00:11:18,645 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:18,779 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:11:18,787 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:51,594 INFO livereload Shutting down...
+2019-06-03 00:11:53,721 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-03 00:11:53,724 INFO livereload Start watching changes
+2019-06-03 00:11:53,724 INFO livereload Start detecting changes
+2019-06-03 00:11:54,666 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:55,332 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/data/cars.json
+2019-06-03 00:11:55,906 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:56,650 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:11:56,663 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:12:03,372 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/blog.html
+2019-06-03 00:12:03,554 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:12:03,579 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:12:46,473 INFO livereload Shutting down...
+2019-06-03 00:12:49,145 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-03 00:12:49,148 INFO livereload Start watching changes
+2019-06-03 00:12:49,148 INFO livereload Start detecting changes
+2019-06-03 00:12:51,075 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:12:51,514 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:12:51,526 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:13:17,488 INFO livereload Shutting down...
+2019-06-03 00:17:06,291 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-03 00:17:06,295 INFO livereload Start watching changes
+2019-06-03 00:17:06,295 INFO livereload Start detecting changes
+2019-06-03 00:17:08,060 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:19:23,944 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:19:24,074 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:22:37,556 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:22:37,777 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:25:51,944 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:25:52,123 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:28:23,946 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:28:24,137 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:28:33,571 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:28:33,746 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:29:16,739 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:29:16,917 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:30:54,364 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:30:54,555 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:31:43,943 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:31:44,198 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:32:29,515 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/static/main.js
+2019-06-03 00:32:29,775 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:32:35,327 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:33:10,349 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/content/blog/index.html
+2019-06-03 00:33:10,660 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:33:30,374 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/content/blog/index.html
+2019-06-03 00:33:30,634 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:33:31,105 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/static/main.js
+2019-06-03 00:33:39,135 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:33:41,617 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:33:48,723 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:33:50,476 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:33:55,532 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:34:54,348 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:34:54,628 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:34:57,298 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:34:58,069 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:34:58,814 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:34:59,465 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:35:01,606 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:35:21,545 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:35:21,807 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:35:31,151 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/index.html
+2019-06-03 00:35:31,397 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:35:33,524 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:35:34,807 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:35:48,437 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:35:51,212 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:35:52,463 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/world/
+2019-06-03 00:35:53,877 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/
+2019-06-03 00:35:56,427 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:51:03,951 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/dev/test-a/pages/blog.html
+2019-06-03 00:51:04,228 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:51:06,532 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:51:07,466 INFO livereload Browser Connected: http://127.0.0.1:8000/blog/hello/
+2019-06-03 00:51:14,859 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:51:16,574 INFO livereload Browser Connected: http://127.0.0.1:8000/about/
+2019-06-03 00:51:17,262 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:51:18,323 INFO livereload Browser Connected: http://127.0.0.1:8000/contact/
+2019-06-03 00:51:20,029 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:51:21,563 INFO livereload Browser Connected: http://127.0.0.1:8000/advanced/
+2019-06-03 00:51:24,402 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-03 00:55:48,947 INFO livereload Shutting down...

@@ -1,0 +1,31 @@
+
+---
+
+collections: 
+    content_dir: blog
+    url: blog/{url}
+assets:
+    scripts: 
+    stylesheets:
+---
+<div class="wrapper">
+    <section class="container">
+        <div class="row">
+            <div class="column column-25">
+                    <ul>
+                        <li>{{ page_link('index', title="Home")}}</li>
+                        {% for item in page.collections %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        
+                <div class="column">
+                    <h3>{{ page.title }}</h3>
+        
+                    %%COLLECTION_CONTENT%%
+                </div>
+        </div>
+    </section>
+</div>
+
