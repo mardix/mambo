@@ -1,0 +1,22 @@
+{% import "macros/meta.html" as Meta with context %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {{ Meta.meta_page_title() }}
+    {{ Meta.meta_page_description() }}
+    {{ Meta.meta_page_meta_tags() }}
+    {{ stylesheet_tag('//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic', True) }}
+    {{ stylesheet_tag('vendor/normalize.css') }}
+    {{ stylesheet_tag('vendor/milligram.css') }}
+    {{ stylesheet_tag('vendor/mambo.css') }}
+
+    {% for css in page.assets.stylesheets %}
+      {{ stylesheet_tag(css.url) }}
+    {% endfor %}
+
+  </head>
+  <body>
