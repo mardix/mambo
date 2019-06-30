@@ -1,0 +1,817 @@
+2019-06-08 12:33:18,196 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 12:33:18,200 INFO livereload Start watching changes
+2019-06-08 12:33:18,200 INFO livereload Start detecting changes
+2019-06-08 12:33:20,079 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:33:26,344 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 12:35:10,316 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/installation.md
+2019-06-08 12:35:10,524 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 12:35:26,255 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 12:35:26,431 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 12:35:27,151 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/installation.md
+2019-06-08 12:40:00,650 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html
+2019-06-08 12:40:00,876 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 12:40:12,652 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html
+2019-06-08 12:40:12,946 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 12:40:21,464 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html
+2019-06-08 12:40:21,809 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 12:40:32,934 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 12:40:44,941 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:41:42,296 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/theme.scss
+2019-06-08 12:41:42,572 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:43:31,200 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:43:31,506 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:43:35,887 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:43:36,127 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:43:36,671 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:43:37,469 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:45:11,879 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/gotham-font-face.css
+2019-06-08 12:45:26,279 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/gotham-font-face.css
+2019-06-08 12:46:21,592 INFO livereload Shutting down...
+2019-06-08 12:48:48,427 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 12:48:48,430 INFO livereload Start watching changes
+2019-06-08 12:48:48,430 INFO livereload Start detecting changes
+2019-06-08 12:48:50,220 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:49:23,697 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:49:24,496 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:49:25,298 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:49:32,193 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:49:41,335 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:50:09,309 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:50:09,563 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:50:09,599 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:50:10,094 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:50:10,901 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:51:57,309 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:51:57,611 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:51:57,691 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 12:51:58,099 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:51:58,895 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:52:01,302 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:52:02,094 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:52:02,895 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:52:06,900 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:52:07,700 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:52:08,498 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 12:56:35,728 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 12:56:36,494 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 12:56:37,298 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:00:46,901 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:00:47,709 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:00:48,500 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:00:56,527 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.1.scss
+2019-06-08 13:00:56,914 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:00:57,021 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:01:07,723 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/base-docs.scss
+2019-06-08 13:01:07,970 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:01:08,000 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:01:47,702 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:01:48,500 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:01:49,294 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:02:22,123 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:02:22,931 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:02:23,742 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:02:45,324 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:02:45,606 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:02:45,665 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:02:46,105 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:02:46,897 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:02:49,698 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:02:59,729 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:03:00,496 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:03:01,303 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:03:07,666 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:03:14,908 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:03:18,282 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:03:39,707 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:03:40,497 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:03:41,296 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:03:42,906 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:03:43,703 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:03:44,506 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:03:45,460 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:03:46,494 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:03:56,512 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:03:56,638 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:03:56,790 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:03:57,295 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:03:58,103 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:04:00,495 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:04:01,298 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:04:02,100 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:04:04,861 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:04:20,504 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:04:21,310 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:04:22,104 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:04:38,914 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:04:39,159 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:04:39,204 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:04:39,714 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:04:40,495 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:04:45,221 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:04:48,699 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:06:21,293 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/index.html
+2019-06-08 13:06:21,522 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:06:21,567 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:06:41,281 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/index.html
+2019-06-08 13:06:41,486 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:06:41,566 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:01,284 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/index.html
+2019-06-08 13:07:01,539 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:01,616 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:11,685 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/index.html
+2019-06-08 13:07:11,884 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:11,977 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:22,449 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:07:24,437 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:07:52,744 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:08:46,099 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:08:46,905 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:08:47,703 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:08:50,900 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:08:51,699 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:08:52,503 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:09:02,109 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:09:02,924 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:09:03,704 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:09:11,405 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:09:13,067 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:10:50,899 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.min.css
+2019-06-08 13:10:51,701 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.scss
+2019-06-08 13:10:52,493 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/static/style.css
+2019-06-08 13:10:55,061 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:04,035 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:11:15,544 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:26,982 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:11:33,326 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:53,089 INFO livereload Shutting down...
+2019-06-08 13:11:55,524 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 13:11:55,528 INFO livereload Start watching changes
+2019-06-08 13:11:55,528 INFO livereload Start detecting changes
+2019-06-08 13:11:56,178 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:57,139 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/data/cars.json
+2019-06-08 13:11:57,308 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:58,030 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:58,331 INFO livereload Reload 3 waiters: None
+2019-06-08 13:11:58,499 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:58,553 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:11:58,568 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:12:32,162 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 13:12:33,348 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:13:43,213 INFO livereload Shutting down...
+2019-06-08 13:14:32,144 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 13:14:32,146 INFO livereload Start watching changes
+2019-06-08 13:14:32,146 INFO livereload Start detecting changes
+2019-06-08 13:14:33,798 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:14:53,337 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:15:25,806 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html
+2019-06-08 13:15:25,966 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:15:26,034 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:15:41,005 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html
+2019-06-08 13:15:41,285 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:15:41,288 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:16:01,704 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:27:19,273 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:47:13,216 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:51:28,827 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 13:58:33,359 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:17:47,415 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:17:47,651 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:18:49,002 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:18:49,184 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:19:33,808 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:19:34,037 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:19:34,603 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/installation.md
+2019-06-08 14:19:45,811 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 14:19:46,026 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:19:48,804 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 14:22:08,203 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 14:22:08,404 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 14:22:09,002 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/installation.md
+2019-06-08 14:24:21,008 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 398, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 398, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 514, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 583, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+jinja2.exceptions.TemplateNotFound: content/guide-docs/installation.md
+2019-06-08 14:25:13,856 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 14:25:14,029 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 14:25:14,612 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 14:25:26,580 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 14:25:49,798 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 14:25:49,990 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 14:26:01,007 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 14:26:01,189 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#installation
+2019-06-08 14:27:05,807 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 14:27:06,010 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:27:14,837 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:27:35,406 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 14:27:35,542 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:28:33,802 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:28:33,972 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:29:11,037 INFO livereload Shutting down...
+2019-06-08 14:33:38,385 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 14:33:38,388 INFO livereload Start watching changes
+2019-06-08 14:33:38,388 INFO livereload Start detecting changes
+2019-06-08 14:33:40,292 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 14:33:42,047 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 14:33:46,313 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:35:28,139 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:35:28,340 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:35:44,849 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:35:45,084 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:35:50,450 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:35:50,554 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:36:04,128 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:36:04,289 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:36:13,654 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:36:13,840 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:36:59,245 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:36:59,451 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:38:15,248 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:38:15,428 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:38:28,851 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:38:29,032 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:39:33,644 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/config.md
+2019-06-08 14:39:33,856 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:39:36,846 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:39:36,955 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:39:48,137 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 14:39:48,247 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:39:52,846 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/config.md
+2019-06-08 14:39:53,027 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 14:42:44,133 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:42:44,377 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:45:18,452 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:45:18,653 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:45:19,244 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 14:48:54,452 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:48:54,674 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:51:30,462 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:51:30,685 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:51:31,244 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 14:51:54,460 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:51:54,682 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 14:52:40,858 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/cli.md
+2019-06-08 14:52:41,070 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#cli
+2019-06-08 15:12:17,045 INFO livereload Shutting down...
+2019-06-08 15:28:58,328 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 15:28:58,331 INFO livereload Start watching changes
+2019-06-08 15:28:58,332 INFO livereload Start detecting changes
+2019-06-08 15:29:00,036 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 15:33:29,741 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 15:36:59,197 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/introduction.md
+2019-06-08 15:36:59,364 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:42:27,192 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/pages.md
+2019-06-08 15:42:27,404 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:42:54,404 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:42:54,591 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:42:59,185 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:42:59,275 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:43:01,584 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:45:27,174 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 15:45:27,352 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:46:26,369 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:46:26,534 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#writing
+2019-06-08 15:47:27,970 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:47:28,143 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#writing
+2019-06-08 15:47:47,169 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 15:47:47,336 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start
+2019-06-08 15:48:02,370 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:48:02,540 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#pages
+2019-06-08 15:51:07,968 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md", line 7, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md", line 7, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 497, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 901, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 875, in subparse
+    add_data(self.parse_tuple(with_condexpr=True))
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 620, in parse_tuple
+    args.append(parse())
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 432, in parse_expression
+    return self.parse_condexpr()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 437, in parse_condexpr
+    expr1 = self.parse_or()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 450, in parse_or
+    left = self.parse_and()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 459, in parse_and
+    left = self.parse_not()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 470, in parse_not
+    return self.parse_compare()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 474, in parse_compare
+    expr = self.parse_math1()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 496, in parse_math1
+    left = self.parse_concat()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 507, in parse_concat
+    args = [self.parse_math2()]
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 517, in parse_math2
+    left = self.parse_pow()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 528, in parse_pow
+    left = self.parse_unary()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 547, in parse_unary
+    node = self.parse_postfix(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 672, in parse_postfix
+    node = self.parse_subscript(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 705, in parse_subscript
+    self.fail('expected name or number', attr_token.lineno)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 59, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: expected name or number
+2019-06-08 15:51:12,763 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md", line 7, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md", line 7, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 497, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 901, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 875, in subparse
+    add_data(self.parse_tuple(with_condexpr=True))
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 620, in parse_tuple
+    args.append(parse())
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 432, in parse_expression
+    return self.parse_condexpr()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 437, in parse_condexpr
+    expr1 = self.parse_or()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 450, in parse_or
+    left = self.parse_and()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 459, in parse_and
+    left = self.parse_not()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 470, in parse_not
+    return self.parse_compare()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 474, in parse_compare
+    expr = self.parse_math1()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 496, in parse_math1
+    left = self.parse_concat()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 507, in parse_concat
+    args = [self.parse_math2()]
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 517, in parse_math2
+    left = self.parse_pow()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 528, in parse_pow
+    left = self.parse_unary()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 547, in parse_unary
+    node = self.parse_postfix(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 672, in parse_postfix
+    node = self.parse_subscript(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 705, in parse_subscript
+    self.fail('expected name or number', attr_token.lineno)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 59, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: expected name or number
+2019-06-08 15:51:22,371 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:51:22,555 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 15:51:39,173 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:51:39,347 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 15:53:04,777 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:53:05,000 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 15:53:48,774 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/writing.md
+2019-06-08 15:53:48,955 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 16:28:25,285 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 18:50:00,710 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 19:43:35,175 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+jinja2.exceptions.TemplateNotFound: content/guide-docs/writing.md
+2019-06-08 19:43:47,217 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-08 19:43:47,464 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 19:45:21,589 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 19:45:21,783 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 19:45:22,367 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-08 19:45:58,375 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 19:45:58,567 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__clean-the-build-directory
+2019-06-08 20:25:46,368 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md", line 110, in top-level template code
+    **/data**:
+jinja2.exceptions.TemplateNotFound: content/my-file.md
+2019-06-08 20:27:47,177 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<unknown>", line 97, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<unknown>", line 97, in template
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 497, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 901, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 872, in subparse
+    next(self.stream)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/lexer.py", line 359, in __next__
+    self.current = next(self._iter)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/lexer.py", line 562, in wrap
+    for lineno, token, value in stream:
+  File "/usr/local/lib/python3.6/site-packages/jinja2/lexer.py", line 646, in tokeniter
+    raise token(lineno, filename)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/lexer.py", line 229, in __call__
+    raise self.error_class(self.message, lineno, filename)
+jinja2.exceptions.TemplateSyntaxError: Missing end of raw directive
+2019-06-08 20:27:51,975 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:27:52,235 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:28:15,179 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:28:15,389 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:28:37,578 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:28:37,805 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:29:20,795 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:29:21,005 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:29:26,386 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:29:26,501 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:29:59,981 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:30:00,151 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:30:39,174 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:30:39,408 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:31:57,578 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:31:57,762 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:32:03,699 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:32:43,977 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:32:44,118 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:33:08,781 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:33:09,010 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:33:18,376 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:33:18,560 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:33:46,376 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:33:46,578 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:34:12,776 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:34:12,984 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:34:39,189 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:34:39,397 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:35:33,576 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:35:33,791 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__folder-structure
+2019-06-08 20:36:11,967 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:36:12,178 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__directory-structure
+2019-06-08 20:36:16,776 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:36:16,931 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__directory-structure
+2019-06-08 20:36:17,572 INFO livereload Ignore: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/quick-start.md
+2019-06-08 20:36:27,169 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:36:27,373 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__directory-structure
+2019-06-08 20:37:40,773 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:37:40,981 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 20:37:48,778 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:37:48,914 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 20:37:55,181 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:37:55,405 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 20:38:13,575 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 20:38:13,802 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 20:43:13,568 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:43:13,766 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__create-a-page
+2019-06-08 20:43:25,568 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:43:25,766 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__create-a-page
+2019-06-08 20:43:28,443 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__create-a-page
+2019-06-08 20:43:29,961 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#quick-start__create-a-page
+2019-06-08 20:43:51,171 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:43:51,354 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure__data
+2019-06-08 20:43:59,970 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:44:00,093 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure__static
+2019-06-08 20:44:34,381 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:44:34,575 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-08 20:45:13,567 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/pages/guide.html
+2019-06-08 20:45:13,755 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 20:59:01,789 INFO livereload Shutting down...
+2019-06-08 21:06:32,332 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-08 21:06:32,336 INFO livereload Start watching changes
+2019-06-08 21:06:32,336 INFO livereload Start detecting changes
+2019-06-08 21:06:34,265 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-08 21:06:35,781 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-08 21:06:46,266 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure__build
+2019-06-08 21:17:19,585 INFO livereload Reload 2 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:17:19,800 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure__build
+2019-06-08 21:17:19,809 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:17:42,775 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:17:42,963 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:18:00,380 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:18:00,575 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:18:07,578 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:18:07,690 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:18:27,578 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:18:27,768 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:18:58,776 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:18:58,980 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:19:07,580 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:19:07,691 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:19:21,985 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:19:22,108 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:19:28,266 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:19:41,185 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:19:41,399 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:19:45,583 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:20:49,976 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:20:50,207 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:21:39,578 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:21:39,785 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:26:06,778 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:26:07,011 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:26:14,777 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:26:14,911 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:26:19,577 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:26:19,750 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:26:37,180 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:26:37,375 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:41:46,778 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:41:47,020 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:43:09,985 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:43:10,202 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 21:46:50,779 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 21:46:50,985 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 22:11:33,526 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 22:19:29,975 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 22:19:30,164 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 22:20:51,581 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 22:20:51,810 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-08 22:23:05,978 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-08 22:23:06,202 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-09 13:33:01,108 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-09 13:33:01,112 INFO livereload Start watching changes
+2019-06-09 13:33:01,112 INFO livereload Start detecting changes
+2019-06-09 13:33:02,861 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-09 13:33:04,604 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-09 13:34:53,962 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/directory-structure.md
+2019-06-09 13:34:54,168 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-09 13:34:59,483 INFO livereload Shutting down...
+2019-06-09 13:44:32,512 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-09 13:44:32,515 INFO livereload Start watching changes
+2019-06-09 13:44:32,515 INFO livereload Start detecting changes
+2019-06-09 13:44:34,312 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-09 13:44:38,254 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#directory-structure
+2019-06-09 13:45:00,565 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-09 13:45:00,788 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:45:41,358 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-09 13:45:41,591 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:47:37,359 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-09 13:47:37,529 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:48:44,551 ERROR tornado.application Exception in callback <bound method LiveReloadHandler.poll_tasks of <class 'livereload.handlers.LiveReloadHandler'>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/tornado/ioloop.py", line 907, in _run
+    return self.callback()
+  File "/usr/local/lib/python3.6/site-packages/livereload/handlers.py", line 67, in poll_tasks
+    filepath, delay = cls.watcher.examine()
+  File "/usr/local/lib/python3.6/site-packages/livereload/watcher.py", line 73, in examine
+    func and func()
+  File "/usr/local/lib/python3.6/site-packages/mambo/cli.py", line 259, in build_pages
+    M.build_pages()
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in build_pages
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 404, in <listcomp>
+    [self._build_page(filename) for filename in self.pages.keys()]
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 520, in _build_page
+    self.create_page(**page)
+  File "/usr/local/lib/python3.6/site-packages/mambo/mambo.py", line 589, in create_page
+    render_content = tpl.render(**context)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md", line 22, in template
+    description: This is a description
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1005, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "<template>", line 2, in top-level template code
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/templates/layouts/default.html", line 16, in top-level template code
+    {% block __PAGE_CONTENT__ %}{% endblock %}
+  File "<template>", line 40, in block "__PAGE_CONTENT__"
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md", line 22, in template
+    description: This is a description
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 497, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 901, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 875, in subparse
+    add_data(self.parse_tuple(with_condexpr=True))
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 620, in parse_tuple
+    args.append(parse())
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 432, in parse_expression
+    return self.parse_condexpr()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 437, in parse_condexpr
+    expr1 = self.parse_or()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 450, in parse_or
+    left = self.parse_and()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 459, in parse_and
+    left = self.parse_not()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 470, in parse_not
+    return self.parse_compare()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 474, in parse_compare
+    expr = self.parse_math1()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 496, in parse_math1
+    left = self.parse_concat()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 507, in parse_concat
+    args = [self.parse_math2()]
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 517, in parse_math2
+    left = self.parse_pow()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 528, in parse_pow
+    left = self.parse_unary()
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 547, in parse_unary
+    node = self.parse_postfix(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 672, in parse_postfix
+    node = self.parse_subscript(node)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 705, in parse_subscript
+    self.fail('expected name or number', attr_token.lineno)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/parser.py", line 59, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: expected name or number
+2019-06-09 13:49:25,358 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-09 13:49:25,582 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:49:35,754 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/edit-page.md
+2019-06-09 13:49:35,946 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:58:34,151 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/template-helpers.md
+2019-06-09 13:58:34,327 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 13:58:41,351 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/template-helpers.md
+2019-06-09 13:58:41,442 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#edit-pages
+2019-06-09 14:17:25,352 INFO livereload Reload 1 waiters: /Users/Mardix/Dropbox/Projects/Python/Yass/docs/content/guide-docs/template-helpers.md
+2019-06-09 14:17:25,672 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/#config
+2019-06-09 14:17:27,270 INFO livereload Shutting down...
+2019-06-29 16:54:45,839 INFO livereload Serving on http://127.0.0.1:8000
+2019-06-29 16:54:45,842 INFO livereload Start watching changes
+2019-06-29 16:54:45,842 INFO livereload Start detecting changes
+2019-06-29 16:54:47,803 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-29 16:54:58,912 INFO livereload Browser Connected: http://127.0.0.1:8000/guide/
+2019-06-29 16:55:14,870 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-29 16:55:39,525 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-06-29 16:57:13,171 INFO livereload Shutting down...

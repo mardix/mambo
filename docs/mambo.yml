@@ -20,7 +20,7 @@ site:
   static_url: /static/
 
   # Site name
-  name: MySiteName.com
+  name: Mambo.py
 
   # The site url
   url: 
@@ -37,6 +37,8 @@ site:
     language: en-us
     rating: General
     robots: index, follow
+
+  github_repo: https://github.com/mardix/mambo
 
 # ------------------------------------------------------------------------------
 # Site environment:
@@ -66,6 +68,16 @@ build:
   env: prod
   generate_sitemap: True
   minify_html: True 
+  enable_static_cache_bust: True
+  static_cache_bust_files: 
+    - .css
+    - .js
+    - .svg
+    - .png
+    - .jpg
+    - .jpeg
+    - .gif
+
 
 # ------------------------------------------------------------------------------
 # Global settings
@@ -96,7 +108,14 @@ globals:
   #         attributes: type="module"  
   assets:
     scripts:
+      - vendor/highlight/highlight.pack.js
       - main.js
     stylesheets:
-      - main.css
+      - vendor/normalize.css
+      - vendor/milligram.css
+      - gotham-font-face.css
+      - style.css
+      - https://use.fontawesome.com/releases/v5.8.1/css/all.css
+      - https//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic
+      - vendor/highlight/styles/nord.css
 

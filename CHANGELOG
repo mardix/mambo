@@ -1,17 +1,33 @@
-1.9.0
+1.2.0
+  - added page meta 'publish', by default True. If False it will skip the page
+  - Added cache busting, + options. config: build.cache_busting
+    - extensions list 
+    - ignore list
+  - Added _root under /static, to copy its content to the root directory 
+1.1.0
+  - Added context site.__env__ and site.__generator__
+1.0.0
+  - Added context page.collections 
+  - Added collection 
+  - Added content folder
+  - Added Timezone
+  - Added sitemap
+  - %%COLLECTION_CONTENT%%
+  - block __PAGE_CONTENT__
+0.9.0
   - fixed "build" that was failing due to compress_html (now removed in favor of htmlmin)
   - removed "extras" folder. 
   - use htmlmin to minify html 
   - move kolibri.extras.md to kolibri.md
   - No more global macros, macros moved to templates/macros/meta.html 
   - remove unecessary objects
-1.8.0
-  - Added In Single File Component {%STATIC_URL%} replacement so it can be added To
+0.8.0
+  - Added In Single File Component %%STATIC_URL%% replacement so it can be added To
     replace the full path
-1.7.0
+0.7.0
   - remove macro.script_tag, macro.stylesheet_tag,
   - remove blocks: __PAGE_COMPONENT_STYLE__, __PAGE_COMPONENT_SCRIPT__
   - added function {{ script_tag }} {{ stylesheet_tag }}
-  - added context page.__assets.scripts, page.__assets.stylesheets, 
+  - added context page.assets.scripts, page.ssets.stylesheets, 
     containing the list of respective properties. To be included in page with {{ script_tag }}
   - Update skel templates

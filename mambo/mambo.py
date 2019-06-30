@@ -30,13 +30,24 @@ from . import md_ext
 
 
 # ==============================================================================
-
+# Mambo
 NAME = "Mambo"
+
+# The config file
 CONFIG_FILE = "mambo.yml"
+
+# Acceptable files
 PAGE_FORMAT = (".html", ".md")
+
+# Default layout from the template folder
 DEFAULT_LAYOUT = "layouts/default.html"
 
+# Tuple of the files that can be cached busted. They will be renamed when created
+STATIC_CACHE_BUST_CHECKSUM_FILE_TYPES = ('.js', '.css', '.svg', '.png', '.gif', '.jpg', '.jpeg')
+
+# Global timezone
 GLOBAL_TIMEZONE = 'America/New_York'
+
 DEFAULT_PAGE_META = {
     "title": "",            # The title of the page
     "markup": None,         # The markup to use. ie: md | html (default)
@@ -52,12 +63,14 @@ DEFAULT_PAGE_META = {
         "changefreq": "monthly",
         "exclude": False
     },
+    "publish": True,        # set to False to prevent from being published
     "collections": None,
     "assets": {             # Contains all assets generated 
         "scripts": [],      # List of all scripts url in the page
         "stylesheets": []   # List of all CSS url in the page
     }    
 }
+DEFAULT_ENVIRONMENT = "dev"
 
 DEFAULT_JS_SCRIPT_TYPE = 'type="text/javascript"'
 RE_BLOCK_BODY = re.compile(r'{%\s*block\s+__PAGE_CONTENT__\s*%}')
@@ -153,7 +166,7 @@ def get_data_files(dir):
     data = {}
     for root, _, files in os.walk(dir):
         for fname in files:
-            if fname.endswith((".json",)):
+            if fname.endswith((".json",)) and not fname.startswith(("_", ".")):
                 name = fname.replace(".json", "")
                 fname = os.path.join(root, fname)
                 if os.path.isfile(fname):
@@ -212,6 +225,7 @@ class Mambo(object):
     pages = {}
     pages_short_mapper = {}
     manifest = []
+    cache_busting_checksum = None
     _verbose = False
 
 
@@ -258,6 +272,7 @@ class Mambo(object):
                 "stylesheets": _stylesheets
             }
 
+
         build_type = options.get("build", "build")
         self.build_config = utils.dictdot(self.config[build_type])
         site_env = self.build_config.get("env")
@@ -275,8 +290,10 @@ class Mambo(object):
         self.site_config.setdefault("base_url", "/")
         self.site_config.setdefault("static_url", "/static")
         self.base_url = self.site_config.get("base_url")
-        self.static_url = self.site_config.get("static_url")    
+        self.static_url = self.site_config.get("static_url") 
 
+        self.enable_cache_busting = self.build_config.get("cache_busting.enable") or False
+        self.cache_busting_ignores = self.build_config.get("cache_busting.ignore") or []
         self.setup_jinja()
 
     def setup_jinja(self):
@@ -284,6 +301,18 @@ class Mambo(object):
         filters = {
             "format_date": format_date
         }
+
+        site_config = self.site_config
+        site_config.update({
+            "__env__": self.site_env if self.site_env else DEFAULT_ENVIRONMENT,
+            "__generator__": {
+                "name": __title__,
+                "version": __version__,
+                "url": __uri__, 
+                "generator": "%s %s" % (__title__, __version__),   
+                "timestamp": int(time.time())            
+            }
+        })
 
         global_context = {
             # Methods
@@ -298,15 +327,8 @@ class Mambo(object):
             "meta_tag_custom": utils.meta_tag_custom,
 
             # Other objects
-            "site": self.site_config,
-            "data": {},
-            "__info__": {
-                "name": __title__,
-                "version": __version__,
-                "url": __uri__,
-                "generator": "%s %s" % (__title__, __version__),
-                "timestamp": int(time.time())
-            }
+            "site": site_config,
+            "data": {}
         }
 
         env_extensions = [
@@ -349,7 +371,7 @@ class Mambo(object):
         return self._make_url(self._fn_page_info(filename, "url", default_))
 
     def _fn_page_info(self, filename, path, default_=None):
-        """Return the page meta info"""
+        '''Return the page meta info'''
         page = self.pages_short_mapper.get(filename) 
         meta = self.pages[page]["meta"]
         return utils.dictdot(meta).get(path, default_)
@@ -358,6 +380,15 @@ class Mambo(object):
         '''Returns the static url'''
         if utils.is_https_string(url):
             return url
+
+        # Cache busting
+        if self.enable_cache_busting:
+            if self.cache_busting_ignores and url in self.cache_busting_ignores:
+                url = url
+            
+            elif self.cache_busting_checksum and len(self.cache_busting_checksum) > 0:
+                url = utils.insert_checksum_in_filepath(url, self.cache_busting_checksum)
+
         return self.static_url.rstrip("/") + "/" + url.lstrip("/")
 
     def _fn_script_tag(self, src, attributes=None, absolute=False): 
@@ -388,9 +419,28 @@ class Mambo(object):
         if not os.path.isdir(self.build_static_dir):
             os.makedirs(self.build_static_dir)
         print_info('copying static dir to build folder...', self._verbose)
-        if self.build_config.get("cache_bust_assets") is True:
-            pass
-        copy_tree(self.static_dir, self.build_static_dir)
+        
+        # Cache Busting static assets
+        cache_busting_extensions = STATIC_CACHE_BUST_CHECKSUM_FILE_TYPES
+        _cache_busting_extensions = self.build_config.get("cache_busting.extensions")
+        if _cache_busting_extensions:
+            cache_busting_extensions = tuple(_cache_busting_extensions)
+        print(self.cache_busting_ignores)
+        _assets = utils.copy_static_dir(
+            self.static_dir, 
+            self.build_static_dir, 
+            self.cache_busting_checksum, 
+            cache_busting_extensions, 
+            self.cache_busting_ignores
+        )
+        static_manifest = [a.replace(self.build_static_dir, "") for a in _assets]
+        
+        # static/_root contains files to be copied to the root the build directory
+        _root_static = os.path.join(self.static_dir, '_root')
+        if os.path.isdir(_root_static):
+            copy_tree(_root_static, self.build_dir)
+
+        print(static_manifest)
 
     def build_pages(self):
         self.aggregate_pages_data()
@@ -414,8 +464,14 @@ class Mambo(object):
                 self.pages_short_mapper.update({fname: base_filename, base_filename: base_filename})
                 filename = os.path.join(base_dir, f)
                 filepath = os.path.join(root, f)
+                markup_file = read_markup_file(filepath, root=self.pages_dir)
+
+                # Don't publish pages with meta.publish is False
+                if markup_file.get("meta").get("publish") is False:
+                    continue
+
                 self.pages.update({
-                    filename: read_markup_file(filepath, root=self.pages_dir)
+                    filename: markup_file
                 })
 
     def _build_page(self, filename):
@@ -460,15 +516,15 @@ class Mambo(object):
             '%%COLLECTION_CONTENT%%': must be placed to display the content of the item
         '''   
         if meta.get("collections"):
-            if meta.get('collections').get("data_file"):
+            if meta.get("collections").get("data_file"):
                 data = self.data_files.get(meta["collections"]["data_file"]) 
-            elif meta.get('collections').get("content_dir"):
+            elif meta.get("collections").get("content_dir"):
                 data = get_content_files_collection(os.path.join(self.content_dir, meta["collections"]["content_dir"] ))
             else: 
                 raise ValueError('Page collection: %s, missing data_file or content_dir ' % filename)
 
             # Create url permalink
-            permalink = meta.get('collections').get("url")
+            permalink = meta.get("collections").get("url")
             if not permalink:
                 permalink = meta["url"].rstrip('/').lstrip('/') + "/" + "{url}"
                 print("Page collection '%s' is missing 'url'" % filename)
@@ -484,6 +540,10 @@ class Mambo(object):
                 subpage = copy.deepcopy(page)
                 submeta = copy.deepcopy(meta)
                 submeta.update(d["meta"])
+
+                # Don't publish pages with meta.publish is False
+                if submeta.get("publish") is False:
+                    continue
 
                 # If the collection page is SFC, just grab the content only
                 sub_sfc = self._parse_sfc_content(submeta.get("filepath", "random"), d.get("content"), d.get("markup"))
@@ -582,7 +642,7 @@ class Mambo(object):
             tpl = self.tpl_env.from_string(content)
             render_content = tpl.render(**context)
             if self.build_config.get("minify_html") is True:
-                render_content = htmlmin.minify(render_content.decode("utf-8"), keep_pre=True)
+                render_content = htmlmin.minify(render_content, keep_pre=True)
             fw.write(render_content)
 
     def _parse_sfc_content(self, filename, content, markup=None):
@@ -601,17 +661,31 @@ class Mambo(object):
             if not os.path.isdir(self.build_static_page_assets_dir):
                 os.makedirs(self.build_static_page_assets_dir)
             sfc_c = sfc[1]
-            sfc_hash = utils.gen_hash()
+            sfc_hash = utils.gen_random_str()
             filepath = slugify(filename)
             sfc_o = {"script": "js", "style": "css"}
 
             for o in sfc_o:
                 if (sfc_c.get(o)):
-                    _ff = os.path.join(self.build_static_page_assets_dir, "%s_%s.%s" % (filepath, sfc_hash, sfc_o[o]))
-                    _sff = _ff.replace(self.build_static_dir, '').lstrip("/")
-                    with open(_ff, "w") as f:
+
+                    '''
+                    For cache busting, don't put the checksum the engine will include it automatically.
+                    Non cache busting will include one
+                    '''
+                    file_basename = os.path.join(self.build_static_page_assets_dir, "%s.%s" % (filepath, sfc_o[o]))
+                    if self.cache_busting_checksum:
+                        file_fullpath = utils.insert_checksum_in_filepath(file_basename, self.cache_busting_checksum)
+                    else:
+                        file_basename = utils.insert_checksum_in_filepath(file_basename, sfc_hash)
+                        file_fullpath = file_basename
+
+                    # Cleanup the filename to use the relative path of the static file
+                    asset_filename = file_basename.replace(self.build_static_dir, '').lstrip("/")
+
+                    with open(file_fullpath, "w") as f:
                         content = sfc_c.get(o)
                         content = content.replace('%%STATIC_URL%%', self.static_url.rstrip("/"))
+
                         '''
                         For stylesheet, if the tag contains 'scss' attribute, 
                         convert scss to css
@@ -622,7 +696,7 @@ class Mambo(object):
 
                     assets_key = "scripts" if o == "script" else "stylesheets"
                     assets[assets_key].append({
-                        "url": _sff,
+                        "url": asset_filename,
                         "attributes": sfc_c["script_props"] if o == "script" else None
                         })
         return assets
@@ -632,12 +706,15 @@ class Mambo(object):
         self.clean_build_dir()
         if not os.path.isdir(self.build_dir):
             os.makedirs(self.build_dir)
+        self.generate_cache_busting_checksum()
         self.build_static()
         self.build_pages()
         
         if self.build_config.get("generate_sitemap") is True:
             generate_sitemap(self.build_dir, self.manifest)
 
-
+    def generate_cache_busting_checksum(self):
+        if self.enable_cache_busting is True:
+            self.cache_busting_checksum = utils.gen_random_str()
 
 

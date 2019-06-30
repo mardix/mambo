@@ -16,7 +16,7 @@ __all__ = [
 ]
 
 __title__ = "Mambo"
-__version__ = "1.0.0"
+__version__ = "1.2.0"
 __summary__ = "Mambo is an elegant and modern static site generator for the common folks!"
 __uri__ = "https://github.com/mardix/mambo"
 __author__ = "Mardix"

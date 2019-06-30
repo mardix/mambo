@@ -5,6 +5,9 @@ import uuid
 import yaml
 import mimetypes
 from scss import Compiler as SCSS
+from distutils.errors import DistutilsFileError, DistutilsInternalError
+from distutils.file_util import copy_file
+from distutils.dir_util import mkpath
 
 '''
 For Single File Component
@@ -34,11 +37,22 @@ def get_ext(filepath):
     _, _ext = os.path.splitext(filepath)
     return _ext.replace(".", "")
 
-def gen_hash():
+def insert_checksum_in_filepath(filepath, checksum=None):
     '''
-    :returns string: a random hash
+    To insert a checksum in a file path. Usually to allow cache busting
+    return the new filepath with the checksum
     '''
-    return uuid.uuid4().hex
+    if not checksum:
+        return filepath        
+    p = list(os.path.splitext(filepath))
+    p.insert(1, ".%s" % checksum)
+    return ''.join(p)
+
+def gen_random_str():
+    '''
+    :returns string: a random hash 
+    '''
+    return uuid.uuid4().hex[:8]
 
 def meta_tag_custom(namespace, name, value=''):
     return '<meta {namespace}="{name}" content="{value}">'.format(namespace=namespace, name=name, value=value)
@@ -128,6 +142,9 @@ def merge_dicts(dict1, dict2):
     return dict1
 
 def convert_scss_to_css(content):
+    '''
+    Convert simple scss to css. Usually for SFC
+    '''
     return SCSS().compile_string(content)
 
 def convert_assets_items_to_dict(assets, attributes=""):
@@ -141,3 +158,43 @@ def convert_assets_items_to_dict(assets, attributes=""):
     if a: 
         b.append({"url": a, "attributes": attributes} if not isinstance(a, (dict,)) else a)
   return b
+
+def copy_static_dir(src, dst, cb_checksum=None, cb_extensions=(None,), cb_ignores=[], _recurse=None):
+    '''
+    To copy a src directory to dst directory
+    Files or folder starting with _ or . will not be copied over
+    '''
+    try:
+        names = os.listdir(src)
+    except OSError as e:
+        raise DistutilsFileError("error listing files in '%s': %s" % (src, e.strerror))
+
+    print('YES', cb_ignores)
+    mkpath(dst)
+    outputs = []
+    base_src = src if _recurse is None else _recurse
+
+    for n in names:
+        src_name = os.path.join(src, n)
+        base_src_name = src_name.replace(base_src, "").lstrip("/")
+        dst_name = os.path.join(dst, n)
+        
+        # skip files and folders starting with . or _ or a symlink
+        if n.startswith(('.', '_')) or os.path.islink(src_name):
+            continue
+
+        # Apply cache busting
+        if cb_checksum is not None \
+            and len(cb_checksum) > 0 \
+            and os.path.isfile(src_name) \
+            and n.endswith(cb_extensions) \
+            and base_src_name not in cb_ignores:
+            dst_name = insert_checksum_in_filepath(dst_name, cb_checksum)
+
+        if os.path.isdir(src_name):
+            outputs.extend(copy_static_dir(src_name, dst_name, cb_checksum, cb_extensions, cb_ignores, src))
+        else:
+            copy_file(src_name, dst_name)
+            outputs.append(dst_name)
+
+    return outputs

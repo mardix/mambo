@@ -6,17 +6,23 @@ title: Welcome to my site
 
     <div class="wrapper">
 
-        <header class="header">
-            <div class="container">
-
-                <h1 class="title">{{ __info__.name }}</h1>
-                <p class="description">An elegant static site generator that makes sense<br>
-                    <i><small>Currently {{ __info__.version }}</small></i>
-                </p>
-                <a class="button" target="_blank" href="https://github.com/mardix/mambo" title="Getting Started">Documentation</a>
-        
-            </div>
-        </header>
+            <header class="header ">
+                    <div class="container">
+                      <h1 class="title">Mambo</h1>
+                      <div class="description">
+                          <strong>An elegant static site generator built in Python</strong>
+                      </div>
+              
+                      <a class="button button-large" href="{{ page_url('guide') }}" title="Getting Started"
+                        ><strong>Get Started</strong></a>
+                      <a
+                        class="button button-large button-outline"
+                        target="_blank"
+                        href="{{ site.github_repo }}"
+                        title="Github repo"
+                        >Github</a>
+                    </div>
+                  </header>
 
         <section class="container">
             <h3 class="title">Simple and Elegant</h3>
@@ -26,13 +32,6 @@ title: Welcome to my site
             build your pages; deploy to your host; Mambo keeps it simple and elegant!
             </p>
 
-            <h4 class="title">Link examples</h4>
-            
-            {{ page_link('about') }} - 
-            {{ page_link('contact') }} - 
-            {{ page_link('advanced') }} - 
-            {{ page_link('articles/last') }} - 
-            {{ page_link('blog', title="Blog") }}
 
         </section>
     </div>

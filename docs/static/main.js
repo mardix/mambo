@@ -1,1 +1,1 @@
-console.log('Hello Mambo!');
+hljs.initHighlightingOnLoad();
