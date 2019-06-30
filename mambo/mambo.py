@@ -425,7 +425,7 @@ class Mambo(object):
         _cache_busting_extensions = self.build_config.get("cache_busting.extensions")
         if _cache_busting_extensions:
             cache_busting_extensions = tuple(_cache_busting_extensions)
-        print(self.cache_busting_ignores)
+
         _assets = utils.copy_static_dir(
             self.static_dir, 
             self.build_static_dir, 
@@ -439,8 +439,6 @@ class Mambo(object):
         _root_static = os.path.join(self.static_dir, '_root')
         if os.path.isdir(_root_static):
             copy_tree(_root_static, self.build_dir)
-
-        print(static_manifest)
 
     def build_pages(self):
         self.aggregate_pages_data()
