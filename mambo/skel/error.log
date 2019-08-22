@@ -202,3 +202,8 @@
 2019-06-12 01:16:16,481 INFO livereload Browser Connected: http://127.0.0.1:8000/
 2019-06-12 01:16:17,173 INFO livereload Browser Connected: http://127.0.0.1:8000/
 2019-06-12 01:16:17,380 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-08-22 00:13:03,122 INFO livereload Serving on http://127.0.0.1:8000
+2019-08-22 00:13:03,126 INFO livereload Start watching changes
+2019-08-22 00:13:03,126 INFO livereload Start detecting changes
+2019-08-22 00:13:05,054 INFO livereload Browser Connected: http://127.0.0.1:8000/
+2019-08-22 00:13:19,286 INFO livereload Shutting down...
