@@ -169,7 +169,6 @@ def copy_static_dir(src, dst, cb_checksum=None, cb_extensions=(None,), cb_ignore
     except OSError as e:
         raise DistutilsFileError("error listing files in '%s': %s" % (src, e.strerror))
 
-    print('YES', cb_ignores)
     mkpath(dst)
     outputs = []
     base_src = src if _recurse is None else _recurse
