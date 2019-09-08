@@ -217,6 +217,105 @@ globals:
 
 ---
 
+## Global Context
+
+**page_url($page_name)** 
+
+To get the url of a page.
+
+`{{ page_url('home') }}`
+
+
+**page_link($page_name, $text, $title, $id, $class)**
+
+To build a page ahref 
+
+`{{ page_link('about.html', title='About Us') }}`
+
+
+**page_info($page_name, $key)**
+
+Return a page meta info
+
+`Title: {{ page_info('home', 'title')}}`
+
+
+**static_url($file_path)**
+
+Return the  url of a static asset
+
+`{{ static_url('imgs/img.png') }}`
+
+
+**script_tag($file_path)**
+
+Create a script tag for a static file
+
+`{{ script_tag('js/main.js') }}`
+
+
+**stylesheet_tag($file_path)**
+
+Create a stylesheet tag for a static file
+
+`{{ stylesheet_tag('css/style.css') }}`
+
+**format_date($date, $format)**
+
+Format a date
+
+`{{ format_date('2019-09-01', 'MM/DD/YYYY h:mm a') }}`
+
+
+**\_\_STATIC_URL__**
+
+Return the static url
+
+`const static_url = "{{ __STATIC_URL__ }}" `
+
+
+**[[\_\_STATIC_URL__]]**
+
+Same as \_\_STATIC_URL__ but to be used SFC javasipt
+
+
+## Site Context
+
+**site**
+
+All the context under the site config
+
+```
+name
+base_url
+static_url
+...
+__env__: the environment (Prod, Dev etc)
+__generator__: info of the generator
+    timestamp
+    name
+    version
+```
+
+
+## Page Context
+
+**page**
+
+All the page context and data set in the frontmatter
+
+```
+title
+description
+url
+...
+```
+
+
+
+
+---
+
 ## Writing Pages
 
 ### Supported format:

@@ -328,7 +328,8 @@ class Mambo(object):
 
             # Other objects
             "site": site_config,
-            "data": {}
+            "data": {},
+            "__STATIC_URL__": self.static_url.rstrip("/") + "/"
         }
 
         env_extensions = [
@@ -682,7 +683,7 @@ class Mambo(object):
 
                     with open(file_fullpath, "w") as f:
                         content = sfc_c.get(o)
-                        content = content.replace('%%STATIC_URL%%', self.static_url.rstrip("/"))
+                        content = content.replace('[[__STATIC_URL__]]', self.static_url.rstrip("/"))
 
                         '''
                         For stylesheet, if the tag contains 'scss' attribute, 
