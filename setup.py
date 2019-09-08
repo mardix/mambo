@@ -14,6 +14,10 @@ __about__ = {}
 with open(os.path.join(base_dir, "mambo", "__about__.py")) as f:
     exec(f.read(), __about__)
 
+with open("README.md", "r") as f:
+    long_description = f.read()
+
+
 install_requires = [
     "jinja2==2.10.1",
     "click==6.2",
@@ -35,7 +39,8 @@ setup(
     author_email=__about__["__email__"],
     description=__about__["__summary__"],
     url=__about__["__uri__"],
-    long_description=__about__["__long_description__"],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     py_modules=['mambo'],
     entry_points=dict(console_scripts=[
         'mambo=mambo.cli:cmd'
