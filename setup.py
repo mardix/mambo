@@ -21,7 +21,7 @@ with open("README.md", "r") as f:
 install_requires = [
     "jinja2==2.10.1",
     "click==6.2",
-    "pyyaml==4.2b1",
+    "pyyaml==5.4",
     "markdown==2.6.2",
     "python-frontmatter==0.4.5",
     "htmlmin==0.1.5",
